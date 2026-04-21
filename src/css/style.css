@@ -13,9 +13,31 @@
 html {
   font-family: "Poppins", sans-serif;
   background-color: #c2c2c24f;
+  @media (min-width: 500px) and (max-width: 767px) {
+    background-color: #061f522d;
+
+    background-size: cover;
+    background-position: center;
+  }
 }
 .main-img {
   background-image: url("../fotoebi/main-img.jpg"); /* ver davamate iqidan bg da aq vqeni */
+  background-size: cover;
+  aspect-ratio: 335 / 435;
+  background-position: center;
+}
+.sec-img-1 {
+  background-image: url("../fotoebi/img-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.sec-img-2 {
+  background-image: url("../fotoebi/img-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.sec-img-3 {
+  background-image: url("../fotoebi/img-3.jpg");
   background-size: cover;
   background-position: center;
 }
