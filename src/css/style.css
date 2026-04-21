@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Poppins";
+  src: url("../fontebi/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fontebi/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  background-color: #c2c2c24f;
+}
+.main-img {
+  background-image: url("../fotoebi/main-img.jpg"); /* ver davamate iqidan bg da aq vqeni */
+  background-size: cover;
+  background-position: center;
+}
